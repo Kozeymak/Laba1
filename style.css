@@ -36,4 +36,27 @@
 .flexbox_column-and-nowrap{
     flex-flow: column nowrap;
 }
-
+img{
+    width: 100%;
+}
+.flexbox_start>div, .flexbox_end>div, .flexbox_center>div, .flexbox_space-evenly>div, .flexbox_space-around>div, .flexbox_space-between>div{
+    width: 200px;    
+}
+.flexbox_start{
+    justify-content: flex-start;
+}
+.flexbox_end{
+    justify-content: flex-end;
+}
+.flexbox_center{
+    justify-content: center;
+}
+.flexbox_space-evenly{
+    justify-content: space-evenly;
+}
+.flexbox_space-around{
+    justify-content: space-around;
+}
+.flexbox_space-between{
+    justify-content: space-between;
+}
