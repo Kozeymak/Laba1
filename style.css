@@ -21,6 +21,19 @@
 .flexbox_column-reverse{
     flex-direction: column-reverse;
 }
-
-
+.flexbox_wrap{
+    flex-wrap: wrap;
+}
+.flexbox_nowrap{
+    flex-wrap: nowrap;
+}
+.flexbox_wrap>div, .flexbox_nowrap>div, .flexbox_row-reverse-and-wrap>div, .flexbox_column-and-nowrap>div{
+    width: calc(50% - 2px);
+}
+.flexbox_row-reverse-and-wrap{
+    flex-flow: row-reverse wrap;
+}
+.flexbox_column-and-nowrap{
+    flex-flow: column nowrap;
+}
 
