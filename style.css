@@ -69,3 +69,32 @@ img{
 .align-self-center{
     align-self: center;
 }
+.flexbox_align-items-center{
+    align-items: center;
+}
+.flexbox_align-items-start{
+    align-items: flex-start;
+}
+.flexbox_align-items-end{
+    align-items: flex-end;
+}
+.flexbox_align-content-center{
+    align-content: center;
+}
+.flexbox_align-content-start{
+    align-content: flex-start;
+}
+.flexbox_align-content-end{
+    align-content: flex-end;
+}
+.flexbox_align-content-center>div, .flexbox_align-content-start>div, .flexbox_align-content-end>div{
+    width: calc(50% - 2px);
+}
+.flexbox_align-content-center, .flexbox_align-content-start, .flexbox_align-content-end{
+    flex-wrap: wrap;
+    height: 1000px;
+}
+.flexbox_align-content-center img, .flexbox_align-content-start img, .flexbox_align-content-end img{
+    height: 200px;
+    width: 200px;
+}
