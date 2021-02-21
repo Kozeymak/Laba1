@@ -98,3 +98,27 @@ img{
     height: 200px;
     width: 200px;
 }
+#odin{
+    flex-grow:2;
+    flex-basis: 1000px;
+    flex-shrink: 1;
+}
+#dva{
+    flex-grow: 1;
+    flex-basis: 1000px;
+    flex-shrink: 3;
+}
+#tri{
+    flex-grow: 0.5;
+    flex-basis: 1000px;
+    flex-shrink: 5;
+}
+#chetire{
+    flex: 2 1 200px
+}
+#pyat{
+    flex: 1 3 200px
+}
+#shest{
+    flex: 6 9 1000px
+}
